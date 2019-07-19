@@ -11,40 +11,27 @@
             "allAtoms": [
                 {
                     "atomType": "Constant",
-                    "name": "Constant",
+                    "name": "Inner Radius",
                     "x": 24,
                     "y": 44,
                     "uniqueID": 398138,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": null
+                            "ioValue": 4
                         }
                     ]
                 },
                 {
                     "atomType": "Constant",
-                    "name": "Constant",
-                    "x": 42,
-                    "y": 119,
+                    "name": "Outer Radius",
+                    "x": 30,
+                    "y": 122,
                     "uniqueID": 127280,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Constant",
-                    "name": "Constant",
-                    "x": 43,
-                    "y": 197,
-                    "uniqueID": 827802,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 10
+                            "ioValue": 11
                         }
                     ]
                 },
@@ -64,8 +51,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 221,
-                    "y": 109,
+                    "x": 216,
+                    "y": 110,
                     "uniqueID": 589498,
                     "ioValues": [
                         {
@@ -81,6 +68,19 @@
                     "y": 66,
                     "uniqueID": 170841,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Height",
+                    "x": 497,
+                    "y": 125,
+                    "uniqueID": 827802,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 7
+                        }
+                    ]
                 },
                 {
                     "atomType": "Extrude",
@@ -105,6 +105,18 @@
             ],
             "allConnectors": [
                 {
+                    "ap1Name": "number",
+                    "ap2Name": "radius",
+                    "ap1ID": 398138,
+                    "ap2ID": 928625
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "radius",
+                    "ap1ID": 127280,
+                    "ap2ID": 589498
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
                     "ap1ID": 928625,
@@ -120,6 +132,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 170841,
+                    "ap2ID": 277059
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "height",
+                    "ap1ID": 827802,
                     "ap2ID": 277059
                 },
                 {
