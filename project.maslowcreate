@@ -168,8 +168,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 640,
-                    "y": 47,
+                    "x": 641,
+                    "y": 48,
                     "uniqueID": 277059,
                     "ioValues": [
                         {
@@ -194,8 +194,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 735,
-                    "y": 134,
+                    "x": 724,
+                    "y": 133,
                     "uniqueID": 678604,
                     "ioValues": [
                         {
@@ -215,8 +215,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 789,
-                    "y": 197,
+                    "x": 788,
+                    "y": 189,
                     "uniqueID": 105588,
                     "ioValues": [
                         {
@@ -236,8 +236,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 988,
-                    "y": 195,
+                    "x": 1047,
+                    "y": 116,
                     "uniqueID": 969693,
                     "ioValues": []
                 },
@@ -348,11 +348,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 277059
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap1ID": 277059,
                     "ap2ID": 969693
@@ -380,6 +375,11 @@
                     "ap2Name": "geometry2",
                     "ap1ID": 105588,
                     "ap2ID": 969693
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 969693
                 }
             ],
             "fileTypeVersion": 1
