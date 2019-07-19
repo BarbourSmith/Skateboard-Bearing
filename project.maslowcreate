@@ -36,6 +36,19 @@
                     ]
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Wall Thickness",
+                    "x": 36,
+                    "y": 218,
+                    "uniqueID": 415711,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 1
+                        }
+                    ]
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 221,
@@ -58,6 +71,68 @@
                         {
                             "name": "radius",
                             "ioValue": 11
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 189,
+                    "y": 190,
+                    "uniqueID": 230671,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 4
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 0
+                        }
+                    ],
+                    "currentEquation": 0
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 197,
+                    "y": 265,
+                    "uniqueID": 458728,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 0
+                        }
+                    ],
+                    "currentEquation": 1
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 339,
+                    "y": 198,
+                    "uniqueID": 560587,
+                    "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 337,
+                    "y": 278,
+                    "uniqueID": 354231,
+                    "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -109,6 +184,12 @@
                     "ap2Name": "radius",
                     "ap1ID": 398138,
                     "ap2ID": 928625
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "x",
+                    "ap1ID": 398138,
+                    "ap2ID": 230671
                 },
                 {
                     "ap1Name": "number",
