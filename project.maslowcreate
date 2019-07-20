@@ -244,14 +244,14 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 1133,
-                    "y": 130,
+                    "x": 1134,
+                    "y": 134,
                     "uniqueID": 831123,
                     "ioValues": [],
                     "BOMitem": {
                         "BOMitemName": "Bearing",
                         "numberNeeded": 1,
-                        "costUSD": 1,
+                        "costUSD": 1.5,
                         "source": "www.example.com",
                         "totalNeeded": 0
                     }
