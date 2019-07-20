@@ -236,10 +236,25 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 1047,
-                    "y": 116,
+                    "x": 946,
+                    "y": 112,
                     "uniqueID": 969693,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 1133,
+                    "y": 130,
+                    "uniqueID": 831123,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "Bearing",
+                        "numberNeeded": 1,
+                        "costUSD": 1,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
                 },
                 {
                     "atomType": "Output",
@@ -378,8 +393,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 969693,
+                    "ap2ID": 831123
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 969693
+                    "ap1ID": 831123
                 }
             ],
             "fileTypeVersion": 1
