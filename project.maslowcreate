@@ -83,14 +83,14 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 1
+                            "ioValue": 11
                         },
                         {
                             "name": "y",
-                            "ioValue": 1
+                            "ioValue": 0.75
                         }
                     ],
-                    "currentEquation": "x + y"
+                    "currentEquation": "x - y"
                 },
                 {
                     "atomType": "Equation",
@@ -101,11 +101,11 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 1
+                            "ioValue": 4
                         },
                         {
                             "name": "y",
-                            "ioValue": 1
+                            "ioValue": 0.75
                         }
                     ],
                     "currentEquation": "x + y"
@@ -119,7 +119,7 @@
                     "ioValues": [
                         {
                             "name": "radius",
-                            "ioValue": 2
+                            "ioValue": 10.25
                         }
                     ]
                 },
@@ -132,7 +132,7 @@
                     "ioValues": [
                         {
                             "name": "radius",
-                            "ioValue": 2
+                            "ioValue": 4.75
                         }
                     ]
                 },
@@ -273,9 +273,33 @@
                 },
                 {
                     "ap1Name": "number",
+                    "ap2Name": "x",
+                    "ap1ID": 398138,
+                    "ap2ID": 970760
+                },
+                {
+                    "ap1Name": "number",
                     "ap2Name": "radius",
                     "ap1ID": 127280,
                     "ap2ID": 589498
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "x",
+                    "ap1ID": 127280,
+                    "ap2ID": 103087
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "y",
+                    "ap1ID": 415711,
+                    "ap2ID": 103087
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "y",
+                    "ap1ID": 415711,
+                    "ap2ID": 970760
                 },
                 {
                     "ap1Name": "geometry",
