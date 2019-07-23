@@ -215,8 +215,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 788,
-                    "y": 189,
+                    "x": 767,
+                    "y": 218,
                     "uniqueID": 105588,
                     "ioValues": [
                         {
@@ -234,25 +234,39 @@
                     ]
                 },
                 {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 946,
-                    "y": 112,
-                    "uniqueID": 969693,
-                    "ioValues": []
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 833,
+                    "y": 57,
+                    "uniqueID": 408788,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 326907",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 336394",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 264903",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1003,
-                    "y": 164,
+                    "atomType": "CutAway",
+                    "name": "Cut Away",
+                    "x": 839,
+                    "y": 163,
+                    "uniqueID": 406979,
                     "ioValues": []
                 },
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 1033,
-                    "y": 134,
+                    "x": 953,
+                    "y": 88,
                     "uniqueID": 831123,
                     "ioValues": [],
                     "BOMitem": {
@@ -262,6 +276,13 @@
                         "source": "https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0",
                         "totalNeeded": 0
                     }
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 974,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -363,9 +384,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
+                    "ap2Name": "3D shape 326907",
                     "ap1ID": 277059,
-                    "ap2ID": 969693
+                    "ap2ID": 408788
                 },
                 {
                     "ap1Name": "geometry",
@@ -387,15 +408,21 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
+                    "ap2Name": "geometry",
                     "ap1ID": 105588,
-                    "ap2ID": 969693
+                    "ap2ID": 406979
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 969693,
+                    "ap1ID": 408788,
                     "ap2ID": 831123
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 336394",
+                    "ap1ID": 406979,
+                    "ap2ID": 408788
                 },
                 {
                     "ap1Name": "geometry",
