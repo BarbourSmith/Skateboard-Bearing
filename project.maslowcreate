@@ -77,38 +77,38 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 189,
-                    "y": 190,
-                    "uniqueID": 230671,
+                    "x": 186,
+                    "y": 203,
+                    "uniqueID": 103087,
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 4
+                            "ioValue": 1
                         },
                         {
                             "name": "y",
-                            "ioValue": 0.75
+                            "ioValue": 1
                         }
                     ],
-                    "currentEquation": 0
+                    "currentEquation": "x + y"
                 },
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 197,
-                    "y": 265,
-                    "uniqueID": 458728,
+                    "x": 183,
+                    "y": 283,
+                    "uniqueID": 970760,
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 11
+                            "ioValue": 1
                         },
                         {
                             "name": "y",
-                            "ioValue": 0.75
+                            "ioValue": 1
                         }
                     ],
-                    "currentEquation": 1
+                    "currentEquation": "x + y"
                 },
                 {
                     "atomType": "Circle",
@@ -119,7 +119,7 @@
                     "ioValues": [
                         {
                             "name": "radius",
-                            "ioValue": 4.75
+                            "ioValue": 2
                         }
                     ]
                 },
@@ -132,7 +132,7 @@
                     "ioValues": [
                         {
                             "name": "radius",
-                            "ioValue": 10.25
+                            "ioValue": 2
                         }
                     ]
                 },
@@ -242,9 +242,16 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1003,
+                    "y": 164,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 1134,
+                    "x": 1033,
                     "y": 134,
                     "uniqueID": 831123,
                     "ioValues": [],
@@ -255,13 +262,6 @@
                         "source": "https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0",
                         "totalNeeded": 0
                     }
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -273,33 +273,9 @@
                 },
                 {
                     "ap1Name": "number",
-                    "ap2Name": "x",
-                    "ap1ID": 398138,
-                    "ap2ID": 230671
-                },
-                {
-                    "ap1Name": "number",
                     "ap2Name": "radius",
                     "ap1ID": 127280,
                     "ap2ID": 589498
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "x",
-                    "ap1ID": 127280,
-                    "ap2ID": 458728
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "y",
-                    "ap1ID": 415711,
-                    "ap2ID": 230671
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "y",
-                    "ap1ID": 415711,
-                    "ap2ID": 458728
                 },
                 {
                     "ap1Name": "geometry",
@@ -314,15 +290,15 @@
                     "ap2ID": 170841
                 },
                 {
-                    "ap1Name": "z",
+                    "ap1Name": "result",
                     "ap2Name": "radius",
-                    "ap1ID": 230671,
+                    "ap1ID": 103087,
                     "ap2ID": 560587
                 },
                 {
-                    "ap1Name": "z",
+                    "ap1Name": "result",
                     "ap2Name": "radius",
-                    "ap1ID": 458728,
+                    "ap1ID": 970760,
                     "ap2ID": 354231
                 },
                 {
