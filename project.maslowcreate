@@ -11,27 +11,27 @@
             "allAtoms": [
                 {
                     "atomType": "Constant",
-                    "name": "Inner Radius",
+                    "name": "Inner Diameter",
                     "x": 24,
                     "y": 44,
                     "uniqueID": 398138,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 4
+                            "ioValue": 8
                         }
                     ]
                 },
                 {
                     "atomType": "Constant",
-                    "name": "Outer Radius",
+                    "name": "Outer Diameter",
                     "x": 30,
                     "y": 122,
                     "uniqueID": 127280,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 11
+                            "ioValue": 22
                         }
                     ]
                 },
@@ -83,7 +83,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 11
+                            "ioValue": 22
                         },
                         {
                             "name": "y",
@@ -101,7 +101,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 4
+                            "ioValue": 8
                         },
                         {
                             "name": "y",
@@ -119,7 +119,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10.25
+                            "ioValue": 21.25
                         }
                     ]
                 },
@@ -140,7 +140,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 4.75
+                            "ioValue": 8.75
                         }
                     ]
                 },
@@ -294,9 +294,21 @@
                 },
                 {
                     "ap1Name": "number",
+                    "ap2Name": "diameter",
+                    "ap1ID": 398138,
+                    "ap2ID": 928625
+                },
+                {
+                    "ap1Name": "number",
                     "ap2Name": "x",
                     "ap1ID": 127280,
                     "ap2ID": 103087
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "diameter",
+                    "ap1ID": 127280,
+                    "ap2ID": 589498
                 },
                 {
                     "ap1Name": "number",
