@@ -70,7 +70,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 22
                         }
                     ]
                 },
@@ -124,6 +124,14 @@
                     ]
                 },
                 {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 425,
+                    "y": 62,
+                    "uniqueID": 170841,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 336,
@@ -135,14 +143,6 @@
                             "ioValue": 4.75
                         }
                     ]
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 461,
-                    "y": 66,
-                    "uniqueID": 170841,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Difference",
@@ -342,15 +342,15 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap1ID": 354231,
-                    "ap2ID": 520059
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 170841,
                     "ap2ID": 277059
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 354231,
+                    "ap2ID": 520059
                 },
                 {
                     "ap1Name": "geometry",
