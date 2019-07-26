@@ -128,6 +128,15 @@
                     }
                 },
                 {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 1069,
+                    "y": 197,
+                    "uniqueID": 202552,
+                    "ioValues": [],
+                    "selectedColorIndex": "5"
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -186,8 +195,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 831123,
+                    "ap2ID": 202552
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 831123
+                    "ap1ID": 202552
                 }
             ],
             "fileTypeVersion": 1
