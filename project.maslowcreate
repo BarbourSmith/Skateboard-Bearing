@@ -105,27 +105,9 @@
                         {
                             "name": "3D shape 326907",
                             "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 264903",
-                            "ioValue": 10
                         }
-                    ]
-                },
-                {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 953,
-                    "y": 88,
-                    "uniqueID": 831123,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "Bearing",
-                        "numberNeeded": 1,
-                        "costUSD": 1.5,
-                        "source": "https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0",
-                        "totalNeeded": 0
-                    }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Color",
@@ -140,7 +122,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -148,60 +130,63 @@
                 {
                     "ap1Name": "number",
                     "ap2Name": "diameter",
+                    "ap2Primary": false,
                     "ap1ID": 398138,
                     "ap2ID": 928625
                 },
                 {
                     "ap1Name": "number",
                     "ap2Name": "diameter",
+                    "ap2Primary": false,
                     "ap1ID": 127280,
                     "ap2ID": 589498
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry2",
+                    "ap2Primary": false,
                     "ap1ID": 928625,
                     "ap2ID": 170841
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry1",
+                    "ap2Primary": false,
                     "ap1ID": 589498,
                     "ap2ID": 170841
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 170841,
                     "ap2ID": 277059
                 },
                 {
                     "ap1Name": "number",
                     "ap2Name": "height",
+                    "ap2Primary": false,
                     "ap1ID": 827802,
                     "ap2ID": 277059
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 326907",
+                    "ap2Primary": false,
                     "ap1ID": 277059,
                     "ap2ID": 408788
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 408788,
-                    "ap2ID": 831123
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 831123,
                     "ap2ID": 202552
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": 202552
                 }
             ],

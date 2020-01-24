@@ -7,6 +7,3 @@
 ## Skateboard Bearing
 
 
-undefined
-
-
